@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Arakin</title>
+  <link rel="icon" type="image/png" href="images/icon.ico"/>
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="super_gradient">
+  <button class="back-button" onclick="history.back()">
+    <i class='bx bx-arrow-back'></i>
+    <span class="back-text">Retour</span>
+  </button>
+<!--Barre de menu-->
+<div class="sidebar">
+  <div class="logo-details">
+    <i class='logo_icone'><img class="logo_image" src="images/logo.png" width="50px" height="50px"></i>
+    <div class="logo_name">&nbsp; Arakin</div>
+    <i class='bx bx-menu' id="btn"></i>
+  </div>
+  <ul class="nav-list">
+    <li>
+      <a href="index.html">
+        <i class='bx bx-home'></i>
+        <span class="links_name">Accueil</span>
+      </a>
+      <span class="tooltip">Accueil</span>
+    </li>
+    <li>
+      <a href="portfolio.html">
+        <i class='bx bx-collection' ></i>
+        <span class="links_name">Portfolio</span>
+      </a>
+      <span class="tooltip">Portfolio</span>
+    </li>
+    <li>
+      <a href="contact.html">
+        <i class='bx bx-envelope'></i>
+        <span class="links_name">Contact</span>
+      </a>
+      <span class="tooltip">Contact</span>
+    </li>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <li>
+        <a href="https://www.instagram.com/arakin.psd/" target="_blank">
+            <i class='bx bxl-instagram'></i>
+          <span class="links_name">Instagram</span>
+        </a>
+        <span class="tooltip">Instagram</span>
+      </li>
+      <li>
+        <a href="https://www.behance.net/arakin" target="_blank">
+            <i class='bx bxl-behance'></i>
+          <span class="links_name">Behance</span>
+        </a>
+        <span class="tooltip">Behance</span>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCAd8WA34XIabgERxaMqd4Ow" target="_blank">
+          <i class='bx bxl-youtube'></i>
+          <span class="links_name">Youtube</span>
+        </a>
+        <span class="tooltip">Youtube</span>
+      </li>
+  </ul>
+</div>
+
+<!--Contenu de la page d'accueil-->
+<section class="home-section">
+    <h1 class="big_title">Mon portfolio</h1>
+    <br><br>
+    <p>
+      Après plusieurs années d'expérience, j'ai réalisé un certain nombre de projets et de travaux. Ces derniers ont été menés à des fins personnelles, pour des proches, mais aussi pour des professionnels ou des artistes. Dans ce portfolio, je vous présente les réalisations dont je suis le plus fier, celles qui ont marqué une étape importante dans mon apprentissage et celles que j'ai pris plaisir à accomplir. L'agencement des projets n'est pas forcément chronologique, mais vous constaterez que certains de mes travaux sont liés entre eux ou partagent une même histoire, que je vous invite à découvrir dans leur description. Bonne visite.
+    <br>
+    <section class="gallery-section">
+      <div class="gallery-container">
+        <!-- Les images seront générées ici par le JavaScript -->
+      </div>
+    </section>
+    
+</section>
+  <script src="data.js"></script>
+  <script src="portfolio.js"></script>
+  <script  src="script.js"></script>
+</body>
+</html>
