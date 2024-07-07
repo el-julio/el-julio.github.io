@@ -1,20 +1,12 @@
-let sidebar = document.querySelector(".sidebar");
-let closeBtn = document.querySelector("#btn");
-let searchBtn = document.querySelector(".bx-search");
-closeBtn.addEventListener("click", () => {
-  sidebar.classList.toggle("open");
-  menuBtnChange(); 
-});
-searchBtn.addEventListener("click", () => {
+// Sélectionner l'élément head_title
+const headTitle = document.querySelector('.head_title');
 
-  sidebar.classList.toggle("open");
-  menuBtnChange(); 
-});
+// Ajouter un écouteur d'événement pour le mouvement de la souris
+headTitle.addEventListener('mousemove', (e) => {
+  // Calculer la position de la souris par rapport à l'élément head_title
+  const x = e.pageX - headTitle.offsetLeft;
+  const y = e.pageY - headTitle.offsetTop;
 
-function menuBtnChange() {
-  if (sidebar.classList.contains("open")) {
-    closeBtn.classList.replace("bx-menu", "bx-menu-alt-right"); 
-  } else {
-    closeBtn.classList.replace("bx-menu-alt-right", "bx-menu"); 
-  }
-}
+  // Mettre à jour la position du dégradé
+  headTitle.style.background = `radial-gradient(circle at ${x}px ${y}px, rgb(255, 152, 56), rgb(255, 98, 0))`;
+});

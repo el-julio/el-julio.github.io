@@ -9,11 +9,19 @@ for (let projet of desc_proj) {
 
   // Créer la balise img avec le src correspondant à la partie "image" du tableau suivi de l'attribut .jpg
   let img = document.createElement("img");
-  img.src = `images/portfolio/${projet['image']}.jpg`;
+  img.src = `images/portfolio/${projet['image']}.webp`;
   img.alt = projet['nom'];
+
+  // Créer la div avec la classe .gallery-item-overlay
+  let galleryItemOverlay = document.createElement("div");
+  galleryItemOverlay.classList.add("gallery-item-overlay");
+  galleryItemOverlay.innerHTML = "<p>Voir le projet</p>";
 
   // Ajouter la balise img à la balise a
   a.appendChild(img);
+
+  // Ajouter la div .gallery-item-overlay à la balise a
+  a.appendChild(galleryItemOverlay);
 
   // Créer un élément div pour entourer la balise a
   let galleryItem = document.createElement("div");

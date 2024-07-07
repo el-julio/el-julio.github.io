@@ -14,7 +14,7 @@ function get_projet() {
     if (projet) {
       document.querySelector(".big_title").textContent = projet.nom;
       document.querySelector(".descriproj").textContent = projet.description;
-      document.querySelector(".proj").src = `images/portfolio/${projet.image}.jpg`;
+      document.querySelector(".proj").src = `images/portfolio/${projet.image}.webp`;
       document.querySelector(".proj").alt = projet.nom;
     } else {
       console.log("Aucun projet trouvé avec cet ID.");

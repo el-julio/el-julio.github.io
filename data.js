@@ -1,17 +1,5 @@
 let desc_proj = [
 	{
-		"image": "affiche_crypto",
-		"nom": "2024 - Une affiche pour un site historique",
-		"description": "L'un de mes travaux les plus récent. Dans le cadre de mes études, j'ai eu comme projet de réaliser une affiche promotionnelle pour le site historique des cryptoportiques en Arles. Un exercice atypique puisqu'il fallait ici moderniser l'image d'un site historique pour le rendre attractif. J'ai fait le choix d'axer mon travail sur la composition, quelque chose de géométrique et moderne permettant un agencement équilibré et cohérent des informations. Et j'y ai évidemment intégré ma couleur de prédilection, l'orange.",
-		"format": "a4",
-    },
-	{
-		"image": "affiche_dad",
-		"nom": "2023 - Une affiche pour mon père",
-		"description": "Avant l'ouverture de sa boutique dont j'ai réalisé le logo, mon père a ouvert une petite galerie temporaire et m'a demandé de faire une affiche. Ce qui m'avais le plus marqué, c'était la couleur qu'il avait apporté à un vieux local en vieille pierre, de par tous les objets, toutes les œuvres qu'il a pu y exposer. J'y suis allé, j'ai pris plusieurs photos et j'ai finis par choisir une des peintures exposée pour le fond de l'affiche. Je voulais appuyer un côté fait main, alors j'ai fait la typo à main levé sur ma tablette graphique avec un brush spécial, puis je l'ai retouché pour 'l'abimer'.",
-		"format": "a4",
-    },
-	{
 		"image": "cover_liquid",
 		"nom": "2020 - Cover liquide",
 		"description": "En 2020 quand j'ai sérieusement commencé mon apprentissage autodidacte, je suis entré en contact avec un ami musicien de mon frère, Q1kill. J'avais rapidement travaillé sur un petit exemple de pochette, cet exemple lui a plu. J'ai par la suite réalisé de multiples pochettes pour lui. Certaines ont servi et d'autres non, mais j'ai utilisé ce sujet pour m'entraîner et tenter de nouvelles choses. Cette première pochette a été pour moi l'occasion d'essayer un effet de 3D sur Photoshop, en utilisant un dégradé comme base avec un pinceau, on obtient cette effet 'liquide' assez flottant.",
@@ -60,18 +48,6 @@ let desc_proj = [
 		"format": "square",
     },
 	{
-		"image": "poster_pondy",
-		"nom": "2023 - Un poster pour le Pondichery",
-		"description": "L'histoire derrière ce poster est assez comique. J'ai fait tous mes jobs d'été au restaurant indien Le Pondichéry, à Sommières. Un jour, j'ai mal nettoyé un cuiseur à riz, et du riz a commencé à brûler à l'intérieur, le rendant inutilisable. On peut dire que j'ai un peu fait ce poster pour me faire pardonner. J'ai mixé la devanture du restaurant que j'ai simplifié et restylé et le Taj-Mahal. Il a beaucoup plu à ma patronne qui lui a immédiatement trouvé une place dans le restaurant.",
-		"format": "a4",
-    },
-	{
-		"image": "illu_dune",
-		"nom": "2021 - Mes premières illustrations",
-		"description": "Quand j'ai commencé à travailler sur Illustrator, après avoir passé des heures à appréhender le logiciel, j'ai voulu créer une petite affiche. J'aimais beaucoup les poster en 2d représentant des paysages que je voyais sur les réseaux. J'ai choisis le désert un peu par manque de compétence, puisque ce n'est pas un paysage très riche et un peu pour moi qui ai toujours voulu voyager dans l'Afrique du Nord et voir le désert. Ce que j'ai fini par faire lors de mon voyage en Egypte en 2023. Et c'étais aussi l'occasion de faire référence à mon pseudo, Arakin, que je tiens du nom de la capitale de la planète Arrakis, dans le film Dune (celui de 1984, que mon père m'avais montré 2 ans avant la sortie du magnifique film de Denis Villeneuve), que j'ai orthographié autrement. Et on retrouve bien sûr l'orange, ma couleur fétiche.",
-		"format": "a4",
-    },
-	{
 		"image": "205_gb",
 		"nom": "2023 - Peugeot 205 Groupe B",
 		"description": "Je suis complètement passionné d'automobile depuis plusieurs années. Et, certainement à cause de mon enfance puisque mes parents n'avaient que ça, de Peugeot. La Peugeot 205 T16 qui a couru en groupe B est une des voitures les plus incroyables qui aient existé, avec l'Audi Quattro S1 et la Lancia delta S4. J'ai donc pris beaucoup de plaisir à réaliser cette illustration sur le logiciel Adobe Illustrator.",
@@ -82,12 +58,6 @@ let desc_proj = [
 		"nom": "2023 - Peugeot 206 WRC",
 		"description": "Après l'interdiction du championnat de rallye Groupe B est apparu le WRC. La Peugeot 206 WRC a gagné le championnat du monde des rallyes dès sa première inscription et trois années consécutives. Cette voiture a nettement participé à la promotion de sa petite sœur, la simple Peugeot 206. Une voiture que j'aime beaucoup aussi, que j'ai énormément conduit. Je me devais donc de rendre hommage à cette voiture dans sa version la plus incroyable : la WRC.",
 		"format": "square",
-    },
-	{
-		"image": "saab_93",
-		"nom": "2022 - Saab 93 2.0l turbo",
-		"description": "Cette voiture est celle de mon meilleur ami. Saab est une marque qui n'existe plus, et nous nous sommes rendu compte qu'il n'existait pas de merch pour cette marque alors nous avons créé le nôtre. J'ai illustré sa voiture et nous en avons fait des produits dérivés. C'était la première illustration de voiture que j'ai fait.",
-		"format": "a4",
     },
 	{
 		"image": "logo_pp",
@@ -102,16 +72,28 @@ let desc_proj = [
 		"format": "square",
     },
 	{
-		"image": "maq_lazor",
-		"nom": "2023 - Maquette pour Lazor-Thy",
-		"description": "Au lycée, j’ai fait la rencontre de Reda, qui avait pour projet de lancer une marque de vêtement. J’ai travaillé pour lui afin de lui fournir des mockups (des maquettes 3d, comme ci-dessous) et j’ai également travaillé de mon côté sur cette piste, en récupérant les éléments qu’il m’a fournis pour ses vêtements et en les réagençant. Encore aujourd’hui, je travaille pour lui sur ce projet de marque de temps à autre.",
-		"format": "square",
+		"image": "affiche_crypto",
+		"nom": "2024 - Une affiche pour un site historique",
+		"description": "L'un de mes travaux les plus récent. Dans le cadre de mes études, j'ai eu comme projet de réaliser une affiche promotionnelle pour le site historique des cryptoportiques en Arles. Un exercice atypique puisqu'il fallait ici moderniser l'image d'un site historique pour le rendre attractif. J'ai fait le choix d'axer mon travail sur la composition, quelque chose de géométrique et moderne permettant un agencement équilibré et cohérent des informations. Et j'y ai évidemment intégré ma couleur de prédilection, l'orange.",
+		"format": "a4",
     },
 	{
-		"image": "logo_jlch",
-		"nom": "2024 - Un logo pour mon père",
-		"description": "Après sa galerie pour laquelle j’ai réalisé une affiche, mon père a ouvert une boutique avec une amie. «Les Jolies Choses», et il m’a demandé d’en réaliser le logo. Il m’avait demandé quelque chose de géométrique faisant apparaître les 3 mots du nom. Après de multiples propositions, celle-ci a été retenue. C’est à mon sens la plus esthétique, équilibrée et lisible. Et ce logo est orange, donc c’est mon préféré.",
-		"format": "square",
+		"image": "affiche_dad",
+		"nom": "2023 - Une affiche pour mon père",
+		"description": "Avant l'ouverture de sa boutique dont j'ai réalisé le logo, mon père a ouvert une petite galerie temporaire et m'a demandé de faire une affiche. Ce qui m'avais le plus marqué, c'était la couleur qu'il avait apporté à un vieux local en vieille pierre, de par tous les objets, toutes les œuvres qu'il a pu y exposer. J'y suis allé, j'ai pris plusieurs photos et j'ai finis par choisir une des peintures exposée pour le fond de l'affiche. Je voulais appuyer un côté fait main, alors j'ai fait la typo à main levé sur ma tablette graphique avec un brush spécial, puis je l'ai retouché pour 'l'abimer'.",
+		"format": "a4",
+    },
+	{
+		"image": "poster_pondy",
+		"nom": "2023 - Un poster pour le Pondichery",
+		"description": "L'histoire derrière ce poster est assez comique. J'ai fait tous mes jobs d'été au restaurant indien Le Pondichéry, à Sommières. Un jour, j'ai mal nettoyé un cuiseur à riz, et du riz a commencé à brûler à l'intérieur, le rendant inutilisable. On peut dire que j'ai un peu fait ce poster pour me faire pardonner. J'ai mixé la devanture du restaurant que j'ai simplifié et restylé et le Taj-Mahal. Il a beaucoup plu à ma patronne qui lui a immédiatement trouvé une place dans le restaurant.",
+		"format": "a4",
+    },
+	{
+		"image": "illu_dune",
+		"nom": "2021 - Mes premières illustrations",
+		"description": "Quand j'ai commencé à travailler sur Illustrator, après avoir passé des heures à appréhender le logiciel, j'ai voulu créer une petite affiche. J'aimais beaucoup les poster en 2d représentant des paysages que je voyais sur les réseaux. J'ai choisis le désert un peu par manque de compétence, puisque ce n'est pas un paysage très riche et un peu pour moi qui ai toujours voulu voyager dans l'Afrique du Nord et voir le désert. Ce que j'ai fini par faire lors de mon voyage en Egypte en 2023. Et c'étais aussi l'occasion de faire référence à mon pseudo, Arakin, que je tiens du nom de la capitale de la planète Arrakis, dans le film Dune (celui de 1984, que mon père m'avais montré 2 ans avant la sortie du magnifique film de Denis Villeneuve), que j'ai orthographié autrement. Et on retrouve bien sûr l'orange, ma couleur fétiche.",
+		"format": "a4",
     },
 ]
 
