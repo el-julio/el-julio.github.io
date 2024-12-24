@@ -27,7 +27,9 @@ jobs:
         with:
           mysql version: '8.0'
           mysql database: 'wordpress'
-          mysql root password: ''
+          mysql root password: 'rootpassword'
+          mysql user: 'wp_user'              
+          mysql password: 'wp_password'
 
       - name: Install WP-CLI
         run: |
