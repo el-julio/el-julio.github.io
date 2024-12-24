@@ -39,7 +39,7 @@ jobs:
 
       - name: Configure WordPress
         run: |
-          wp config create --dbname=wordpress --dbuser=root --dbpass='' --allow-root
+          wp config create --dbname=wordpress --dbuser=wp_user --dbpass=wp_password --allow-root
           wp core install --url=${{ github.event.repository.name }} --title="Mon Site" --admin_user=admin --admin_password=admin --admin_email=test@example.com --allow-root
 
       - name: Install and Configure Simply Static
