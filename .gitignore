@@ -1,0 +1,13 @@
+# Configuration WordPress
+wp-config.php
+
+# Fichiers de développement WordPress
+/wp-content/upgrade/
+/wp-content/backup-*
+/wp-content/cache/
+/wp-content/uploads/
+
+# Fichiers système
+.DS_Store
+.idea/
+*.log
