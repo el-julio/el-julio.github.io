@@ -1,0 +1,66 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Setup MySQL
+        uses: mirromutth/mysql-action@v1.1
+        with:
+          mysql version: '8.0'
+          mysql database: 'wordpress'
+          mysql root password: ''
+
+      - name: Install WP-CLI
+        run: |
+          curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+          chmod +x wp-cli.phar
+          sudo mv wp-cli.phar /usr/local/bin/wp
+
+      - name: Configure WordPress
+        run: |
+          wp config create --dbname=wordpress --dbuser=root --dbpass='' --allow-root
+          wp core install --url=${{ github.event.repository.name }} --title="Mon Site" --admin_user=admin --admin_password=admin --admin_email=test@example.com --allow-root
+
+      - name: Install and Configure Simply Static
+        run: |
+          wp plugin install simply-static --activate --allow-root
+          wp option update simply-static_delivery_method local --allow-root
+          wp option update simply-static_local_dir static --allow-root
+
+      - name: Generate Static Files
+        run: wp simply-static run --allow-root
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './static'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
